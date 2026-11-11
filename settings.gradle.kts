@@ -24,3 +24,13 @@ dependencyResolutionManagement {
 
 rootProject.name = "VideoLoader"
 include(":app")
+// Core.
+include(":core:common")
+include(":core:network")
+include(":core:database")
+include(":core:upload")
+// Features.
+include(":feature:library:api")
+include(":feature:library:impl")
+include(":feature:uploads:api")
+include(":feature:uploads:impl")
