@@ -24,6 +24,7 @@ dependencies {
     implementation(project(":core:network"))
     implementation(project(":core:database"))
 
+    implementation(libs.okhttp)
     implementation(libs.work.runtime.ktx)
     implementation(libs.datastore.preferences)
     implementation(libs.kotlinx.coroutines.android)
